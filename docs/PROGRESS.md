@@ -21,8 +21,8 @@
 
 ## Phase 2 : Sections Principales
 
-- [x] Navigation avec glassmorphism, menu mobile drawer et sélecteur de langue
-- [x] Hero section avec visuels Monaco de prestige, stats et double CTA
+- [x] Navigation avec glassmorphism, menu mobile drawer, logo vectoriel fidèle et sélecteur de langue
+- [x] Hero section avec visuels Monaco de prestige, blason carbone/or fidèle, stats et double CTA
 - [x] Services (grille resserrée à 3 prestations majeures sur 3 colonnes)
 - [ ] Galerie / Portfolio (mis en pause temporairement)
 - [x] Réservation (cartes WhatsApp avec message pré-rempli & appel direct)
