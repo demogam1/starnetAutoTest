@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StarNetAuto Monaco | Lavage, Nettoyage et Rénovation Automobile de Prestige</title>
+  <meta name="description" content="StarNetAuto à Monaco : services d'excellence en lavage haute précision, nettoyage intérieur sur-mesure, polissage et rénovation detailing pour véhicules de luxe et supercars." />
+  <meta name="keywords" content="lavage auto monaco, detailing monaco, rénovation carrosserie monaco, nettoyage voiture luxe monaco, protection ceramique monaco, starnetauto" />
+  <meta name="author" content="StarNetAuto Monaco" />
+  <meta name="theme-color" content="#0A0A0B" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://starnetauto.mc/" />
+  <meta property="og:title" content="StarNetAuto Monaco | Detailing et Rénovation Automobile" />
+  <meta property="og:description" content="Nettoyage et rénovation automobile d'exception en Principauté de Monaco. Réservation directe via WhatsApp." />
+  <meta property="og:image" content="/images/hero/hero-bg.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="StarNetAuto Monaco | Detailing Automobile de Prestige" />
+  <meta name="twitter:description" content="Nettoyage et rénovation automobile d'exception en Principauté de Monaco." />
+  <meta name="twitter:image" content="/images/hero/hero-bg.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Google Fonts Preconnect & Luxury Font Loading (Outfit + Inter + Cinzel) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Structured Data (LocalBusiness) for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoWash",
+    "name": "StarNetAuto Monaco",
+    "image": "https://starnetauto.mc/images/hero/hero-bg.jpg",
+    "telephone": "+37764062044",
+    "email": "starnetautomc@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "7 Impasse des Carrières",
+      "addressLocality": "Monaco",
+      "postalCode": "06240",
+      "addressCountry": "MC"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.7384,
+      "longitude": 7.4246
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "08:00",
+      "closes": "20:00"
+    },
+    "priceRange": "€€€"
+  }
+  </script>
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="header" id="header" role="banner">
+    <div class="container nav">
+      <a href="#hero" class="nav__brand" aria-label="StarNetAuto Monaco Accueil">
+        <span>STARNET<span class="nav__brand-auto">AUTO</span></span>
+      </a>
+
+      <nav class="nav__menu" aria-label="Navigation principale">
+        <a href="#hero" class="nav__link active" data-i18n="nav.home">Accueil</a>
+        <a href="#services" class="nav__link" data-i18n="nav.services">Services</a>
+        <a href="#booking" class="nav__link" data-i18n="nav.booking">Réservation</a>
+        <a href="#contact" class="nav__link" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button type="button" class="lang-switch js-lang-toggle" aria-label="Changer de langue">EN</button>
+        <a href="#booking" class="btn btn--primary nav__btn-desktop" data-i18n="nav.bookBtn">Réserver un créneau</a>
+        <button type="button" class="nav__toggle" aria-label="Ouvrir le menu mobile">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav__overlay" aria-hidden="true"></div>
+  <aside class="mobile-nav" aria-label="Menu mobile">
+    <div>
+      <div class="mobile-nav__header">
+        <span class="nav__brand" style="font-size: 1.15rem;">
+          STARNET<span class="nav__brand-auto">AUTO</span>
+        </span>
+        <button type="button" class="mobile-nav__close" aria-label="Fermer le menu">&times;</button>
+      </div>
+      <div class="mobile-nav__links">
+        <a href="#hero" class="mobile-nav__link" data-i18n="nav.home">Accueil</a>
+        <a href="#services" class="mobile-nav__link" data-i18n="nav.services">Services</a>
+        <a href="#booking" class="mobile-nav__link" data-i18n="nav.booking">Réservation</a>
+        <a href="#contact" class="mobile-nav__link" data-i18n="nav.contact">Contact</a>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: var(--space-sm);">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: var(--space-sm); border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+        <span style="font-size: 0.85rem; color: var(--color-text-secondary);">Langue / Language</span>
+        <button type="button" class="lang-switch js-lang-toggle" aria-label="Changer de langue">EN</button>
+      </div>
+      <a href="https://wa.me/37764062044?text=Bonjour%20StarNetAuto%2C%20je%20souhaite%20r%C3%A9server%20un%20cr%C3%A9neau%20de%20detailing%20pour%20mon%20v%C3%A9hicule%20%C3%A0%20Monaco." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp btn--block js-whatsapp-link" aria-label="Réserver sur WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" style="width: 18px; height: 18px;" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.79 14.15c-.24.67-1.39 1.24-1.92 1.29-.53.05-1.21.07-3.95-.98-2.66-1.02-4.36-3.71-4.5-3.89-.13-.18-1.07-1.42-1.07-2.72 0-1.3.68-1.94.92-2.2.24-.26.53-.33.71-.33.18 0 .36 0 .51.01.16.01.37-.06.58.44.22.52.74 1.82.81 1.95.07.13.11.29.02.47-.09.18-.14.29-.27.45-.14.16-.29.35-.41.47-.13.13-.27.27-.12.53.16.26.69 1.14 1.48 1.84 1.02.91 1.88 1.19 2.14 1.33.27.13.42.11.58-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.61-.13.25.09 1.59.75 1.86.88.27.13.45.2.52.31.06.12.06.69-.18 1.36z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+      <a href="tel:+37764062044" class="btn btn--secondary btn--block" aria-label="Appeler l'atelier">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 18px; height: 18px;" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>+377 6 40 62 04 44</span>
+      </a>
+    </div>
+  </aside>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" id="hero" style="background-image: linear-gradient(180deg, rgba(10, 10, 11, 0.75) 0%, rgba(10, 10, 11, 0.95) 100%), url('/images/hero/hero-bg.jpg'); background-size: cover; background-position: center;">
+      <div class="container hero__container">
+        <div class="hero__badge">
+          <span class="badge fade-in-element">
+            <span class="badge__dot"></span>
+            <span data-i18n="hero.locationBadge">Monaco • 7 Impasse des Carrières</span>
+          </span>
+        </div>
+
+        <h1 class="hero__title fade-in-element">
+          <span data-i18n="hero.title">L'Excellence du Detailing et de la Rénovation Automobile</span>
+        </h1>
+
+        <p class="hero__subtitle fade-in-element" data-i18n="hero.subtitle">
+          Soins méticuleux, rénovation de prestige et protection céramique sur-mesure pour supercars et véhicules d'exception en Principauté de Monaco.
+        </p>
+
+        <div class="hero__actions fade-in-element">
+          <a href="https://wa.me/37764062044?text=Bonjour%20StarNetAuto%2C%20je%20souhaite%20r%C3%A9server%20un%20cr%C3%A9neau%20de%20detailing%20pour%20mon%20v%C3%A9hicule%20%C3%A0%20Monaco." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp btn--large js-whatsapp-link" aria-label="Réserver via WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.79 14.15c-.24.67-1.39 1.24-1.92 1.29-.53.05-1.21.07-3.95-.98-2.66-1.02-4.36-3.71-4.5-3.89-.13-.18-1.07-1.42-1.07-2.72 0-1.3.68-1.94.92-2.2.24-.26.53-.33.71-.33.18 0 .36 0 .51.01.16.01.37-.06.58.44.22.52.74 1.82.81 1.95.07.13.11.29.02.47-.09.18-.14.29-.27.45-.14.16-.29.35-.41.47-.13.13-.27.27-.12.53.16.26.69 1.14 1.48 1.84 1.02.91 1.88 1.19 2.14 1.33.27.13.42.11.58-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.61-.13.25.09 1.59.75 1.86.88.27.13.45.2.52.31.06.12.06.69-.18 1.36z"/></svg>
+            <span data-i18n="hero.ctaWhatsApp">Réserver sur WhatsApp</span>
+          </a>
+
+          <a href="tel:+37764062044" class="btn btn--secondary btn--large" aria-label="Appeler l'atelier StarNetAuto">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span data-i18n="hero.ctaCall">Appeler l'Atelier</span>
+          </a>
+        </div>
+
+        <div class="hero__stats fade-in-element">
+          <div class="hero__stat-card">
+            <div class="hero__stat-value" data-i18n="hero.statExperience">Excellence et Précision</div>
+            <div class="hero__stat-desc" data-i18n="hero.statExperienceDesc">Savoir-faire artisanal</div>
+          </div>
+          <div class="hero__stat-card">
+            <div class="hero__stat-value" data-i18n="hero.statCars">Véhicules de Prestige</div>
+            <div class="hero__stat-desc" data-i18n="hero.statCarsDesc">Ferrari, Rolls-Royce, Porsche</div>
+          </div>
+          <div class="hero__stat-card">
+            <div class="hero__stat-value" data-i18n="hero.statService">Disponibilité Totale</div>
+            <div class="hero__stat-desc" data-i18n="hero.statServiceDesc">À votre écoute 7j/7</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section (3 offres essentielles) -->
+    <section class="section section--secondary" id="services">
+      <div class="container">
+        <header class="section__header fade-in-element">
+          <span class="badge">
+            <span class="badge__dot"></span>
+            <span data-i18n="services.badge">Prestations Haute Couture</span>
+          </span>
+          <h2 class="section__title" data-i18n="services.title">Nos Services de Rénovation et Soin Automobile</h2>
+          <p class="section__subtitle" data-i18n="services.subtitle">Chaque véhicule est unique. Nos protocoles de préparation et d'embellissement s'adaptent aux matériaux les plus précieux.</p>
+        </header>
+
+        <div class="services-grid">
+          <!-- Service 1: Lavage Extérieur Haute Précision -->
+          <article class="card service-card fade-in-element">
+            <div class="service-card__top">
+              <div class="icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="M20 12h2"/><path d="m19.07 4.93-1.41 1.41"/><path d="M15.94 10.94 12 7l-3.94 3.94a5.57 5.57 0 1 0 7.88 0Z"/></svg>
+              </div>
+              <h3 class="service-card__title">Lavage Haute Précision Extérieur</h3>
+              <p class="service-card__desc">Prélavage à la mousse active, lavage manuel aux deux seaux avec gants en microfibre, décontamination chimique et mécanique des surfaces peintes et des jantes.</p>
+              <ul class="service-card__features">
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Nettoyage jantes et passages de roues</span>
+                </li>
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Décontamination ferreuse et goudron</span>
+                </li>
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Séchage sans contact à air filtré</span>
+                </li>
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Finition brillance et protection carrosserie</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://wa.me/37764062044?text=Bonjour%20StarNetAuto%2C%20je%20souhaite%20r%C3%A9server%20un%20Lavage%20Haute%20Pr%C3%A9cision%20Ext%C3%A9rieur." target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--block js-whatsapp-service" aria-label="Réserver lavage haute précision">Réserver cette prestation</a>
+          </article>
+
+          <!-- Service 2: Nettoyage et Soin Intérieur Cuir -->
+          <article class="card service-card fade-in-element">
+            <div class="service-card__top">
+              <div class="icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9h-4V3H9v6H5l7 7 7-7z"/><path d="M5 18v2h14v-2H5z"/></svg>
+              </div>
+              <h3 class="service-card__title">Nettoyage et Soin Intérieur Cuir</h3>
+              <p class="service-card__desc">Aspiration minutieuse en profondeur, nettoyage vapeur antibactérien, détachage des moquettes et traitement nourrissant protecteur pour cuirs fins et alcantara.</p>
+              <ul class="service-card__features">
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Shampoing injecteur et extracteur</span>
+                </li>
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Nutrition des cuirs avec protection UV</span>
+                </li>
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Désinfection antibactérienne de l'habitacle</span>
+                </li>
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Purification totale des aérateurs</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://wa.me/37764062044?text=Bonjour%20StarNetAuto%2C%20je%20souhaite%20r%C3%A9server%20un%20Soin%20Int%C3%A9rieur%20Cuir." target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--block js-whatsapp-service" aria-label="Réserver soin intérieur">Réserver cette prestation</a>
+          </article>
+
+          <!-- Service 3: Correction Peinture et Protection Céramique -->
+          <article class="card service-card fade-in-element">
+            <div class="service-card__top">
+              <div class="icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3 class="service-card__title">Correction Peinture et Céramique</h3>
+              <p class="service-card__desc">Correction des micro-rayures et hologrammes par polissage multi-passes, suivie de l'application d'un nano-revêtement céramique ultra-hydrophobe haute dureté.</p>
+              <ul class="service-card__features">
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Mesure électronique de l'épaisseur du vernis</span>
+                </li>
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Polissage abrasif et finition miroir</span>
+                </li>
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Nano-bouclier céramique ultra-hydrophobe</span>
+                </li>
+                <li class="service-card__feature">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Protection anti-rayures et anti-UV longue durée</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://wa.me/37764062044?text=Bonjour%20StarNetAuto%2C%20je%20souhaite%20r%C3%A9server%20une%20Correction%20Peinture%20et%20C%C3%A9ramique." target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--block js-whatsapp-service" aria-label="Réserver correction peinture et céramique">Réserver cette prestation</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="section section--primary" id="booking">
+      <div class="container">
+        <header class="section__header fade-in-element">
+          <span class="badge">
+            <span class="badge__dot"></span>
+            <span data-i18n="booking.badge">Prise de Rendez-vous</span>
+          </span>
+          <h2 class="section__title" data-i18n="booking.title">Réservez Votre Créneau sans Attente</h2>
+          <p class="section__subtitle" data-i18n="booking.subtitle">Pour préserver un niveau d'exigence maximal, chaque véhicule fait l'objet d'une attention exclusive. Contactez-nous pour convenir du moment parfait.</p>
+        </header>
+
+        <div class="booking-cards">
+          <!-- WhatsApp Booking Card -->
+          <div class="card booking-card booking-card--highlight fade-in-element">
+            <div>
+              <span class="badge booking-card__badge">
+                <span class="badge__dot"></span>
+                <span data-i18n="booking.whatsappCard.badge">Recommandé • Réponse immédiate</span>
+              </span>
+              <h3 class="booking-card__title" data-i18n="booking.whatsappCard.title">Réservation Rapide par WhatsApp</h3>
+              <p class="booking-card__desc" data-i18n="booking.whatsappCard.desc">Échangez directement avec notre responsable d'atelier. Indiquez votre véhicule et la prestation souhaitée pour fixer votre date en quelques instants.</p>
+            </div>
+            <a href="https://wa.me/37764062044?text=Bonjour%20StarNetAuto%2C%20je%20souhaite%20r%C3%A9server%20un%20cr%C3%A9neau%20de%20detailing%20pour%20mon%20v%C3%A9hicule%20%C3%A0%20Monaco." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp btn--large btn--block js-whatsapp-link" aria-label="Ouvrir WhatsApp pour réserver">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.79 14.15c-.24.67-1.39 1.24-1.92 1.29-.53.05-1.21.07-3.95-.98-2.66-1.02-4.36-3.71-4.5-3.89-.13-.18-1.07-1.42-1.07-2.72 0-1.3.68-1.94.92-2.2.24-.26.53-.33.71-.33.18 0 .36 0 .51.01.16.01.37-.06.58.44.22.52.74 1.82.81 1.95.07.13.11.29.02.47-.09.18-.14.29-.27.45-.14.16-.29.35-.41.47-.13.13-.27.27-.12.53.16.26.69 1.14 1.48 1.84 1.02.91 1.88 1.19 2.14 1.33.27.13.42.11.58-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.61-.13.25.09 1.59.75 1.86.88.27.13.45.2.52.31.06.12.06.69-.18 1.36z"/></svg>
+              <span data-i18n="booking.whatsappCard.btn">Réserver sur WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Phone Call Card -->
+          <div class="card booking-card fade-in-element">
+            <div>
+              <span class="badge booking-card__badge">
+                <span class="badge__dot"></span>
+                <span data-i18n="booking.phoneCard.badge">Appel direct</span>
+              </span>
+              <h3 class="booking-card__title" data-i18n="booking.phoneCard.title">Ligne Directe Atelier</h3>
+              <p class="booking-card__desc" data-i18n="booking.phoneCard.desc">Vous préférez un échange vocal pour des exigences spécifiques ? Notre équipe vous répond avec plaisir à tout moment.</p>
+            </div>
+            <a href="tel:+37764062044" class="btn btn--primary btn--large btn--block" aria-label="Appeler l'atelier">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span data-i18n="booking.phoneCard.btn">Appeler l'Atelier</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3 Simple Steps -->
+        <div class="booking-steps fade-in-element">
+          <div class="booking-steps__title" data-i18n="booking.stepsTitle">Comment réserver ?</div>
+          <div class="booking-steps__list">
+            <div class="booking-step-item">
+              <span class="booking-step-num">1</span>
+              <span data-i18n="booking.step1">Choisissez votre prestation (lavage extérieur, soin intérieur ou céramique)</span>
+            </div>
+            <div class="booking-step-item">
+              <span class="booking-step-num">2</span>
+              <span data-i18n="booking.step2">Cliquez sur le bouton WhatsApp pour envoyer votre demande pré-remplie</span>
+            </div>
+            <div class="booking-step-item">
+              <span class="booking-step-num">3</span>
+              <span data-i18n="booking.step3">Confirmation immédiate de votre créneau horaire à notre atelier de Monaco</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Access Section -->
+    <section class="section section--secondary" id="contact">
+      <div class="container">
+        <header class="section__header fade-in-element">
+          <span class="badge">
+            <span class="badge__dot"></span>
+            <span data-i18n="contact.badge">Accès et Coordonnées</span>
+          </span>
+          <h2 class="section__title" data-i18n="contact.title">Où Nous Trouver</h2>
+          <p class="section__subtitle" data-i18n="contact.subtitle">Situé au cœur de la Principauté de Monaco pour un accès privilégié et discret.</p>
+        </header>
+
+        <div class="contact-grid">
+          <!-- Contact Info List -->
+          <div class="contact-info-list fade-in-element">
+            <!-- Address -->
+            <div class="contact-info-item">
+              <div class="icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="contact-info-label" data-i18n="contact.addressTitle">Adresse de l'Atelier</div>
+                <div class="contact-info-val" data-i18n="contact.address">7 Impasse des Carrières, 06240 Monaco</div>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-info-item">
+              <div class="icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <div class="contact-info-label" data-i18n="contact.phoneTitle">Téléphone et WhatsApp</div>
+                <div class="contact-info-val">
+                  <a href="tel:+37764062044" data-i18n="contact.phone">+377 6 40 62 04 44</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-info-item">
+              <div class="icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div>
+                <div class="contact-info-label" data-i18n="contact.emailTitle">Courriel</div>
+                <div class="contact-info-val">
+                  <a href="mailto:starnetautomc@gmail.com" data-i18n="contact.email">starnetautomc@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Instagram -->
+            <div class="contact-info-item">
+              <div class="icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </div>
+              <div>
+                <div class="contact-info-label" data-i18n="contact.instagramTitle">Instagram Officiel</div>
+                <div class="contact-info-val">
+                  <a href="https://instagram.com/starnetauto" target="_blank" rel="noopener noreferrer" data-i18n="contact.instagram">@starnetauto</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hours -->
+            <div class="contact-info-item">
+              <div class="icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <div class="contact-info-label" data-i18n="contact.hoursTitle">Disponibilité</div>
+                <div class="contact-info-val" data-i18n="contact.hours">Ouvert 7j/7 sur rendez-vous</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Styled Map Card -->
+          <div class="contact-map-wrapper fade-in-element">
+            <iframe
+              class="contact-map-iframe"
+              title="Localisation StarNetAuto Monaco"
+              src="https://maps.google.com/maps?q=7+Impasse+des+Carri%C3%A8res+Monaco&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="contact-map-footer">
+              <span style="font-size: 0.85rem; color: var(--color-text-secondary);">7 Impasse des Carrières, Monaco</span>
+              <a href="https://maps.google.com/?q=7+Impasse+des+Carri%C3%A8res+06240+Monaco" target="_blank" rel="noopener noreferrer" class="btn btn--secondary" style="padding: 0.4rem 0.85rem; font-size: 0.75rem;" data-i18n="contact.mapsBtn">
+                Ouvrir dans Google Maps
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Brand -->
+        <div>
+          <a href="#hero" class="nav__brand">
+            <span>STARNET<span class="nav__brand-auto">AUTO</span></span>
+          </a>
+          <p class="footer__brand-desc" data-i18n="footer.tagline">Lavage, rénovation et detailing automobile d'exception à Monaco.</p>
+        </div>
+
+        <!-- Links -->
+        <div>
+          <h4 class="footer__heading" data-i18n="footer.quickLinksTitle">Navigation</h4>
+          <ul class="footer__links-list">
+            <li><a href="#hero" class="footer__link" data-i18n="nav.home">Accueil</a></li>
+            <li><a href="#services" class="footer__link" data-i18n="nav.services">Services</a></li>
+            <li><a href="#booking" class="footer__link" data-i18n="nav.booking">Réservation</a></li>
+            <li><a href="#contact" class="footer__link" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact info -->
+        <div>
+          <h4 class="footer__heading" data-i18n="footer.contactTitle">Principauté de Monaco</h4>
+          <ul class="footer__links-list">
+            <li class="footer__link">7 Impasse des Carrières, 06240 Monaco</li>
+            <li><a href="tel:+37764062044" class="footer__link">+377 6 40 62 04 44</a></li>
+            <li><a href="mailto:starnetautomc@gmail.com" class="footer__link">starnetautomc@gmail.com</a></li>
+            <li><a href="https://instagram.com/starnetauto" target="_blank" rel="noopener noreferrer" class="footer__link">Instagram : @starnetauto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div data-i18n="footer.rights">© 2026 StarNetAuto. Tous droits réservés. Entreprise monégasque de soins automobiles.</div>
+        <span class="badge" data-i18n="footer.badge">Monaco Luxury Detailing</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Bottom Floating Quick-Action Bar -->
+  <aside class="mobile-bottom-bar" aria-label="Actions rapides réservation et appel direct">
+    <a href="https://wa.me/37764062044?text=Bonjour%20StarNetAuto%2C%20je%20souhaite%20r%C3%A9server%20un%20cr%C3%A9neau%20de%20detailing%20pour%20mon%20v%C3%A9hicule%20%C3%A0%20Monaco." target="_blank" rel="noopener noreferrer" class="mobile-bottom-bar__btn btn--whatsapp js-whatsapp-link" aria-label="Réserver via WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.79 14.15c-.24.67-1.39 1.24-1.92 1.29-.53.05-1.21.07-3.95-.98-2.66-1.02-4.36-3.71-4.5-3.89-.13-.18-1.07-1.42-1.07-2.72 0-1.3.68-1.94.92-2.2.24-.26.53-.33.71-.33.18 0 .36 0 .51.01.16.01.37-.06.58.44.22.52.74 1.82.81 1.95.07.13.11.29.02.47-.09.18-.14.29-.27.45-.14.16-.29.35-.41.47-.13.13-.27.27-.12.53.16.26.69 1.14 1.48 1.84 1.02.91 1.88 1.19 2.14 1.33.27.13.42.11.58-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.61-.13.25.09 1.59.75 1.86.88.27.13.45.2.52.31.06.12.06.69-.18 1.36z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+    <a href="tel:+37764062044" class="mobile-bottom-bar__btn btn--primary" aria-label="Appeler l'atelier">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Appeler</span>
+    </a>
+  </aside>
+
+  <!-- Main script -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

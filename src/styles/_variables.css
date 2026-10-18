@@ -1,0 +1,64 @@
+:root {
+  /* --- Fond --- */
+  --color-bg-primary: #0a0a0b;
+  --color-bg-secondary: #141416;
+  --color-bg-card: #1a1a1f;
+  --color-bg-elevated: #222228;
+
+  /* --- Accent (Or) --- */
+  --color-accent-gold: #C9A84C;
+  --color-accent-light: #E8D48B;
+  --color-accent-dark: #9A7B2E;
+
+  /* --- Texte --- */
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: #A0A0A8;
+  --color-text-muted: #6B6B73;
+
+  /* --- Utilitaires --- */
+  --color-border: rgba(201, 168, 76, 0.15);
+  --color-border-hover: rgba(201, 168, 76, 0.4);
+  --color-glass: rgba(255, 255, 255, 0.03);
+  --color-glass-header: rgba(10, 10, 11, 0.85);
+  --color-success: #34D399;
+  --color-error: #EF4444;
+
+  /* --- Gradients --- */
+  --gradient-gold: linear-gradient(135deg, var(--color-accent-light) 0%, var(--color-accent-gold) 50%, var(--color-accent-dark) 100%);
+  --gradient-gold-hover: linear-gradient(135deg, #FFF0B3 0%, var(--color-accent-light) 50%, var(--color-accent-gold) 100%);
+  --gradient-card: linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(0, 0, 0, 0.4) 100%);
+
+  /* --- Typographie --- */
+  --font-heading: 'Outfit', 'Cinzel', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* --- Espacements --- */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+
+  /* --- Rayons de courbure --- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* --- Ombres --- */
+  --shadow-subtle: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 35px rgba(201, 168, 76, 0.25);
+
+  /* --- Transitions --- */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* --- Layout --- */
+  --container-max: 1200px;
+  --header-height: 80px;
+}

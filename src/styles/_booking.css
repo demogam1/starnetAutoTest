@@ -1,0 +1,120 @@
+.booking-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .booking-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-xl);
+    margin-bottom: var(--space-3xl);
+  }
+}
+
+.booking-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  padding: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .booking-card {
+    padding: var(--space-xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  .booking-card {
+    padding: var(--space-2xl);
+  }
+}
+
+.booking-card--highlight {
+  border-color: rgba(201, 168, 76, 0.4);
+  background: linear-gradient(180deg, rgba(201, 168, 76, 0.05) 0%, rgba(26, 26, 31, 0.9) 100%);
+}
+
+.booking-card__badge {
+  align-self: flex-start;
+  margin-bottom: var(--space-sm);
+  font-size: 0.7rem;
+}
+
+.booking-card__title {
+  font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+  margin-bottom: var(--space-xs);
+  color: var(--color-text-primary);
+}
+
+.booking-card__desc {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin-bottom: var(--space-lg);
+  color: var(--color-text-secondary);
+}
+
+.booking-steps {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .booking-steps {
+    padding: var(--space-xl);
+  }
+}
+
+.booking-steps__title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  margin-bottom: var(--space-md);
+  color: var(--color-accent-light);
+  text-align: center;
+}
+
+.booking-steps__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-sm);
+}
+
+@media (min-width: 768px) {
+  .booking-steps__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+  }
+}
+
+.booking-step-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  line-height: 1.45;
+  padding: 0.25rem 0;
+}
+
+.booking-step-num {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(201, 168, 76, 0.15);
+  border: 1px solid var(--color-accent-gold);
+  color: var(--color-accent-light);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.78rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}

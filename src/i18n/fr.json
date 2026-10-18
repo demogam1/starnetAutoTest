@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "StarNetAuto Monaco | Lavage, Nettoyage et Rénovation Automobile de Prestige",
+    "description": "StarNetAuto à Monaco : services d'excellence en lavage haute précision, nettoyage intérieur sur-mesure, polissage et rénovation detailing pour véhicules de luxe et supercars."
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "booking": "Réservation",
+    "contact": "Contact",
+    "bookBtn": "Réserver un créneau",
+    "switchLang": "EN"
+  },
+  "hero": {
+    "locationBadge": "Monaco • 7 Impasse des Carrières",
+    "title": "L'Excellence du Detailing et de la Rénovation Automobile",
+    "subtitle": "Soins méticuleux, rénovation de prestige et protection céramique sur-mesure pour supercars et véhicules d'exception en Principauté de Monaco.",
+    "ctaWhatsApp": "Réserver sur WhatsApp",
+    "ctaCall": "Appeler l'Atelier",
+    "statExperience": "Excellence et Précision",
+    "statExperienceDesc": "Savoir-faire artisanal",
+    "statCars": "Véhicules de Prestige",
+    "statCarsDesc": "Ferrari, Rolls-Royce, Porsche",
+    "statService": "Disponibilité Totale",
+    "statServiceDesc": "À votre écoute 7j/7"
+  },
+  "services": {
+    "badge": "Prestations Haute Couture",
+    "title": "Nos Services de Rénovation et Soin Automobile",
+    "subtitle": "Chaque véhicule est unique. Nos protocoles de préparation et d'embellissement s'adaptent aux matériaux les plus précieux.",
+    "items": [
+      {
+        "id": "exterior",
+        "title": "Lavage Haute Précision Extérieur",
+        "description": "Prélavage à la mousse active, lavage manuel aux deux seaux avec gants en microfibre, décontamination chimique et mécanique des surfaces peintes et des jantes.",
+        "features": [
+          "Nettoyage jantes et passages de roues",
+          "Décontamination ferreuse et goudron",
+          "Séchage sans contact à air filtré",
+          "Finition brillance et protection carrosserie"
+        ]
+      },
+      {
+        "id": "interior",
+        "title": "Nettoyage et Soin Intérieur Cuir",
+        "description": "Aspiration minutieuse en profondeur, nettoyage vapeur antibactérien, détachage des moquettes et traitement nourrissant protecteur pour cuirs fins et alcantara.",
+        "features": [
+          "Shampoing injecteur et extracteur",
+          "Nutrition des cuirs avec protection UV",
+          "Désinfection antibactérienne de l'habitacle",
+          "Purification totale des aérateurs"
+        ]
+      },
+      {
+        "id": "correction_ceramic",
+        "title": "Correction Peinture et Céramique",
+        "description": "Correction des micro-rayures et hologrammes par polissage multi-passes, suivie de l'application d'un nano-revêtement céramique ultra-hydrophobe haute dureté.",
+        "features": [
+          "Mesure électronique de l'épaisseur du vernis",
+          "Polissage abrasif et finition miroir",
+          "Nano-bouclier céramique ultra-hydrophobe",
+          "Protection anti-rayures et anti-UV longue durée"
+        ]
+      }
+    ]
+  },
+  "booking": {
+    "badge": "Prise de Rendez-vous",
+    "title": "Réservez Votre Créneau sans Attente",
+    "subtitle": "Pour préserver un niveau d'exigence maximal, chaque véhicule fait l'objet d'une attention exclusive. Contactez-nous pour convenir du moment parfait.",
+    "whatsappCard": {
+      "title": "Réservation Rapide par WhatsApp",
+      "desc": "Échangez directement avec notre responsable d'atelier. Indiquez votre véhicule et la prestation souhaitée pour fixer votre date en quelques instants.",
+      "btn": "Réserver sur WhatsApp",
+      "badge": "Recommandé • Réponse immédiate"
+    },
+    "phoneCard": {
+      "title": "Ligne Directe Atelier",
+      "desc": "Vous préférez un échange vocal pour des exigences spécifiques ? Notre équipe vous répond avec plaisir à tout moment.",
+      "btn": "Appeler l'Atelier",
+      "badge": "Appel direct"
+    },
+    "stepsTitle": "Comment réserver ?",
+    "step1": "1. Choisissez votre prestation (lavage extérieur, soin intérieur ou céramique)",
+    "step2": "2. Cliquez sur le bouton WhatsApp pour envoyer votre demande pré-remplie",
+    "step3": "3. Confirmation immédiate de votre créneau horaire à notre atelier de Monaco"
+  },
+  "contact": {
+    "badge": "Accès et Coordonnées",
+    "title": "Où Nous Trouver",
+    "subtitle": "Situé au cœur de la Principauté de Monaco pour un accès privilégié et discret.",
+    "addressTitle": "Adresse de l'Atelier",
+    "address": "7 Impasse des Carrières, 06240 Monaco",
+    "phoneTitle": "Téléphone et WhatsApp",
+    "phone": "+377 6 40 62 04 44",
+    "emailTitle": "Courriel",
+    "email": "starnetautomc@gmail.com",
+    "instagramTitle": "Instagram Officiel",
+    "instagram": "@starnetauto",
+    "hoursTitle": "Disponibilité",
+    "hours": "Ouvert 7j/7 sur rendez-vous",
+    "mapsBtn": "Ouvrir dans Google Maps"
+  },
+  "footer": {
+    "tagline": "Lavage, rénovation et detailing automobile d'exception à Monaco.",
+    "quickLinksTitle": "Navigation",
+    "servicesTitle": "Expertises",
+    "contactTitle": "Principauté de Monaco",
+    "rights": "Tous droits réservés. Entreprise monégasque de soins automobiles.",
+    "badge": "Monaco Luxury Detailing"
+  }
+}

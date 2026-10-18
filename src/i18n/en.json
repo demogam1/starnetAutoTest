@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "StarNetAuto Monaco | Luxury Car Detailing, Washing and Restoration",
+    "description": "StarNetAuto Monaco: bespoke high-precision automotive detailing, bespoke interior conditioning, paint correction, and ceramic protection for supercars and prestige vehicles."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "booking": "Booking",
+    "contact": "Contact",
+    "bookBtn": "Book an Appointment",
+    "switchLang": "FR"
+  },
+  "hero": {
+    "locationBadge": "Monaco • 7 Impasse des Carrières",
+    "title": "Mastery of Automotive Detailing and Restoration",
+    "subtitle": "Meticulous care, bespoke luxury restoration, and ceramic protection tailored for supercars and prestige motorcars in the Principality of Monaco.",
+    "ctaWhatsApp": "Book on WhatsApp",
+    "ctaCall": "Call the Workshop",
+    "statExperience": "Excellence and Precision",
+    "statExperienceDesc": "Master craftmanship",
+    "statCars": "Prestige Motorcars",
+    "statCarsDesc": "Ferrari, Rolls-Royce, Porsche",
+    "statService": "Full Availability",
+    "statServiceDesc": "At your service 7 days a week"
+  },
+  "services": {
+    "badge": "Haute Horlogerie of Car Care",
+    "title": "Our Automotive Detailing and Restoration Services",
+    "subtitle": "Every vehicle is unique. Our bespoke protocols elevate and preserve the most delicate materials.",
+    "items": [
+      {
+        "id": "exterior",
+        "title": "High-Precision Exterior Wash",
+        "description": "Active snow foam pre-wash, two-bucket hand wash with plush microfiber mitts, plus chemical and mechanical decontamination of painted surfaces and wheels.",
+        "features": [
+          "Deep wheel and wheel arch cleansing",
+          "Iron fallout and tar decontamination",
+          "Filtered touchless warm air drying",
+          "Gloss enhancement and paint sealant"
+        ]
+      },
+      {
+        "id": "interior",
+        "title": "Interior Deep Clean and Leather Care",
+        "description": "Meticulous extraction vacuuming, antibacterial steam sanitization, carpet stain removal, and deep conditioning for fine leather and alcantara.",
+        "features": [
+          "Extractor deep carpet extraction",
+          "UV barrier leather conditioning",
+          "Cabin antibacterial sanitization",
+          "Comprehensive air vent purification"
+        ]
+      },
+      {
+        "id": "correction_ceramic",
+        "title": "Paint Correction and Ceramic Shield",
+        "description": "Multi-stage machine polishing removing swirl marks and surface imperfections, paired with a high-solids nano-ceramic shield for extreme gloss and hydrophobic protection.",
+        "features": [
+          "Electronic paint depth measurement",
+          "Abrasive compound and jewel polish",
+          "Ultra-hydrophobic nano-ceramic coating",
+          "Long-lasting UV and scratch defense"
+        ]
+      }
+    ]
+  },
+  "booking": {
+    "badge": "Fast Appointment",
+    "title": "Book Your Slot Directly",
+    "subtitle": "To uphold the utmost quality standard, each vehicle receives exclusive, undivided focus. Reach out to schedule your preferred time.",
+    "whatsappCard": {
+      "title": "Fast WhatsApp Booking",
+      "desc": "Connect directly with our workshop manager. Share your vehicle model and requested service to confirm your slot within minutes.",
+      "btn": "Book on WhatsApp",
+      "badge": "Recommended • Instant reply"
+    },
+    "phoneCard": {
+      "title": "Direct Workshop Line",
+      "desc": "Prefer speaking with a specialist regarding tailored requirements? Our team welcomes your call anytime.",
+      "btn": "Call the Workshop",
+      "badge": "Direct Call"
+    },
+    "stepsTitle": "How it works",
+    "step1": "1. Select your desired service (exterior wash, interior care, or ceramic shield)",
+    "step2": "2. Click the WhatsApp button to send a pre-filled booking inquiry",
+    "step3": "3. Immediate confirmation of your reserved slot at our Monaco studio"
+  },
+  "contact": {
+    "badge": "Location and Details",
+    "title": "How to Find Us",
+    "subtitle": "Conveniently located in Monaco for private, discreet automotive servicing.",
+    "addressTitle": "Workshop Address",
+    "address": "7 Impasse des Carrières, 06240 Monaco",
+    "phoneTitle": "Phone and WhatsApp",
+    "phone": "+377 6 40 62 04 44",
+    "emailTitle": "Email",
+    "email": "starnetautomc@gmail.com",
+    "instagramTitle": "Official Instagram",
+    "instagram": "@starnetauto",
+    "hoursTitle": "Opening Hours",
+    "hours": "Open 7 days a week by appointment",
+    "mapsBtn": "Open in Google Maps"
+  },
+  "footer": {
+    "tagline": "Exceptional automotive washing, restoration, and detailing in Monaco.",
+    "quickLinksTitle": "Navigation",
+    "servicesTitle": "Services",
+    "contactTitle": "Principauté de Monaco",
+    "rights": "All rights reserved. Monaco automotive care specialist.",
+    "badge": "Monaco Luxury Detailing"
+  }
+}
